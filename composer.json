@@ -1,5 +1,6 @@
 {
   "name": "antikirra/blowfish",
+  "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
       "Antikirra\\Blowfish\\": "src/"
