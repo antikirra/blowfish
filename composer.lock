@@ -4,29 +4,26 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b00a4e97534ea14b425ca4e1a8bb82ff",
+    "content-hash": "c8946eaba10726636cb2231388a4909b",
     "packages": [
         {
             "name": "antikirra/encoder",
-            "version": "0.0.2",
+            "version": "0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/antikirra/encoder.git",
-                "reference": "5aae72976d4a08b502427b574ab63956ce17f71f"
+                "reference": "810ca438f02686173fd0dffb118509ed85222d94"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/antikirra/encoder/zipball/5aae72976d4a08b502427b574ab63956ce17f71f",
-                "reference": "5aae72976d4a08b502427b574ab63956ce17f71f",
+                "url": "https://api.github.com/repos/antikirra/encoder/zipball/810ca438f02686173fd0dffb118509ed85222d94",
+                "reference": "810ca438f02686173fd0dffb118509ed85222d94",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "php": "^7.4 || ^8.0",
+                "php": "^8.1",
                 "tuupola/base58": "^2.1"
-            },
-            "replace": {
-                "symfony/polyfill-mbstring": "*"
             },
             "type": "library",
             "autoload": {
@@ -43,9 +40,9 @@
             ],
             "support": {
                 "issues": "https://github.com/antikirra/encoder/issues",
-                "source": "https://github.com/antikirra/encoder/tree/0.0.2"
+                "source": "https://github.com/antikirra/encoder/tree/0.0.3"
             },
-            "time": "2022-01-03T15:40:55+00:00"
+            "time": "2022-01-03T16:41:00+00:00"
         },
         {
             "name": "tuupola/base58",
@@ -117,7 +114,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.4 || ^8.0",
+        "php": "^8.1",
         "ext-openssl": "*"
     },
     "platform-dev": [],
